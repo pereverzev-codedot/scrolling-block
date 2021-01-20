@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
 body {
     background-color: brown;
     margin: 0;
@@ -48,9 +52,20 @@ img {
     position: absolute;
     right: -2px;
     top: 20px;
-    z-index: -1;
+    z-index: -2;
     filter: blur(6px);
-    opacity: 0.8;
+    opacity: 0.5;
+}
+
+p {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    bottom: 10px;
+    left: 20%;
+    z-index: -1;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 3px;
 }
 
 img:hover {
