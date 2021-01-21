@@ -7,8 +7,17 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
-    height: 25500px;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
 }
+
+main {
+    height: 8000px;
+    flex-shrink: 0;
+}
+
 
 .scrolling-wrapper {
     position: absolute;
@@ -57,7 +66,7 @@ img {
     opacity: 0.5;
 }
 
-p {
+.img-wrapper p {
     position: absolute;
     color: white;
     font-size: 20px;
