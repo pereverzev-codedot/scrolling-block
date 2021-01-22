@@ -39,6 +39,10 @@ main {
     flex-wrap: wrap;
     align-items: flex-start;
 
+    @media (max-width: 1000px) {
+        top: -1948px;
+    }
+
 }
 
 img {
