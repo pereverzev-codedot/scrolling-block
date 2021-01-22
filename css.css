@@ -38,11 +38,12 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
+}
 
-    @media (max-width: 1000px) {
+@media (max-width: 1000px) {
+    .scrolling-block {
         top: -1948px;
     }
-
 }
 
 img {
